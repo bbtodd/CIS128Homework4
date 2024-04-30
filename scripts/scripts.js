@@ -27,11 +27,11 @@ if(typeof(Storage)!=="undefined")
   {
   if (localStorage.name)
     {
-    localStorage.name=inputBox.value;
+     localStorage.setItem('name', inputBox.value);
     }
   else
     {
-    localStorage.name=inputBox.value;
+     localStorage.setItem('name', inputBox.value);
     }
   document.getElementById("msg").innerHTML="Hello, " + localStorage.name + ", it's nice to see you again.";
   }
