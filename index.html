@@ -68,5 +68,11 @@
       </main>
       <footer>&copy; billbobtodd.com</footer>
     </div>
+    <script>
+      if (localStorage.getItem("name") != null) {
+          document.getElementById("msg").innerHTML="Hello, " + localStorage.name + " it's nice to see you again.";
+        }
+    </script>
+    
   </body>
 </html>
