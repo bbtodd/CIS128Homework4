@@ -41,3 +41,8 @@ else
   }
 }
 
+  if (localStorage.getItem("name") != null) {
+      document.getElementById("msg").innerHTML="Hello, " + localStorage.name + ", it's nice to see you again.";
+    }
+
+
