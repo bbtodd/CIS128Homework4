@@ -2,15 +2,15 @@
     "name": "HW4 App",
     "short_name": "App",
     "display": "standalone",
-    "start_url": "CIS128Homework4/index.html",
+    "start_url": "/CIS128Homework4/index.html",
     "icons": [
       {
-        "src": "CIS128Homework4/img/icon-152x152.png",
+        "src": "/CIS128Homework4/img/icon-152x152.png",
         "sizes": "152x152",
         "type": "image/png"
       },
       {
-        "src": "CIS128Homework4/img/icon-192x192.png",
+        "src": "/CIS128Homework4/img/icon-192x192.png",
         "sizes": "192x192",
         "type": "image/png"
       }
