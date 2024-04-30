@@ -1,12 +1,12 @@
 var CACHE_VERSION = 'myapp-v1';
 var CACHE_FILES = [
-    'CIS128Homework4/',
-    'CIS128Homework4/index.html',
-    'CIS128Homework4/images/lightblue.jpg',
-    'CIS128Homework4/images/lightgold.jpg',
-    'CIS128Homework4/scripts/app.js',
-    'CIS128Homework4/scripts/scripts.js',
-    'CIS128Homework4/css/styles.css'
+    '/CIS128Homework4/',
+    '/CIS128Homework4/index.html',
+    '/CIS128Homework4/images/lightblue.jpg',
+    '/CIS128Homework4/images/lightgold.jpg',
+    '/CIS128Homework4/scripts/app.js',
+    '/CIS128Homework4/scripts/scripts.js',
+    '/CIS128Homework4/css/styles.css'
 ];
 
 self.addEventListener('install', event => {
