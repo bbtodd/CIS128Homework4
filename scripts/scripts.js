@@ -20,8 +20,10 @@ var inputBox = "";
 
 function setName()
 {
-if(typeof(Storage)!=="undefined")
-    inputBox = document.getElementById("name");
+    
+inputBox = document.getElementById("name");
+    
+if(typeof(Storage)!=="undefined")    
   {
   if (localStorage.name)
     {
