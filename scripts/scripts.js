@@ -37,7 +37,7 @@ if(typeof(Storage)!=="undefined")
   }
 else
   {
-  document.getElementById("msg").innerHTML="Try typing in your name...";
+  document.getElementById("msg").innerHTML="Your browser doesn't support local storage.";
   }
 }
 
