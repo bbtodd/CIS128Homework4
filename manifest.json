@@ -1,5 +1,5 @@
 {
-    "name": "HW4 App",
+    "name": "CIS128 App",
     "short_name": "App",
     "display": "standalone",
     "start_url": "/CIS128Homework4/index.html",
