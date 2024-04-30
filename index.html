@@ -22,7 +22,7 @@
       <header>
         <label for="change_background">Choose a background:</label>
         <select name="change_background" id="change_background">
-          <option value="white">White</option>
+          <option value="white">None</option>
           <option value="blue">Light blue</option>
           <option value="gold">Light gold</option>
         </select>
@@ -30,7 +30,11 @@
       </header>
       
       <main>
-          
+
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" onfocusout="setName()" />
+        <div id="msg"></div>
+        
         <h2>Progressive web apps</h2>
           <p>
             1. A progressive web app (PWA) is an app that's built using web platform technologies, but that provides a user experience like that of a platform-specific app.
