@@ -15,3 +15,27 @@ function updateBackground(event) {
       document.body.style.backgroundImage = "url('images/lightgold.jpg')";
   }
 }
+
+var inputBox = "";
+
+function setName()
+{
+if(typeof(Storage)!=="undefined")
+    inputBox = document.getElementById("name");
+  {
+  if (localStorage.name)
+    {
+    localStorage.name=inputBox.value;
+    }
+  else
+    {
+    localStorage.name=inputBox.value;
+    }
+  document.getElementById("msg").innerHTML="Hello, " + localStorage.name + ", it's nice to see you again.";
+  }
+else
+  {
+  document.getElementById("msg").innerHTML="Try typing in your name...";
+  }
+}
+
